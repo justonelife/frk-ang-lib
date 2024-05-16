@@ -2,29 +2,9 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "baseUrl": "./",
     "paths": {
-      "@web-core/controls": [
-        "./dist/web-core/controls"
-      ],
-      "base-control": [
-        "./dist/base-control",
-        "./dist/base-control"
-      ],
-      "input-text": [
-        "./dist/input-text"
-      ],
-      "input-text2": [
-        "./dist/input-text2"
-      ],
-      "input-text3": [
-        "./dist/input-text3"
-      ],
-      "input-text4": [
-        "./dist/input-text4"
-      ],
-      "web-core": [
-        "./dist/web-core"
-      ]
+      "web-core/*": ["projects/web-core/*/public-api"] 
     },
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,

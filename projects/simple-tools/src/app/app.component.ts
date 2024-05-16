@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { InputControlComponent } from '../../../web-core/controls/input-control.component';
+import { InputControlComponent } from 'web-core/controls';
 
 @Component({
   selector: 'app-root',
